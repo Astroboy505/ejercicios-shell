@@ -1,0 +1,4 @@
+function 02-holaparametros.sh {
+> local -r primer arg=$1
+> echo "hola" $*
+>}
