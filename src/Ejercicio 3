@@ -4,9 +4,9 @@ nano 03-hola-al-menos-1-parametro.sh
 #! /bin/bash
 if [[ $* -le 0 ]];
 then
-        echo debes introducir al menos un parametro
+        echo debes introducir al menos un parametro!
 else
-        echo "numero de parameto =" $*   
+        echo hola $*!   
 fi
 ####################################################################################################################################################################
 chmod +x 03-hola-al-menos-1-parametro.sh
